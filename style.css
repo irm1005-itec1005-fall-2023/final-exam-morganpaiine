@@ -220,3 +220,25 @@ margin-bottom: 20px;
   border-radius: 9px;
   border: 6px solid black;
 }
+
+.my-work-container span{
+  position: relative;
+  display: inline-block;
+  margin-right: 23px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.my-work-container span::before,
+.my-work-container span::after {
+  content:'' ;
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -10px;
+  right: -10px;
+  background-color: pink;
+  z-index: -1;
+  border-radius: 15px;
+}
+
