@@ -81,6 +81,7 @@ body {
   background-color: black;
   border-radius: 8px;
   padding: 3px;
+  margin-left: 20px;
  }
 
  .header-btn {
@@ -93,6 +94,7 @@ body {
   border-radius: 8px;
   padding: 8px;
   cursor: pointer;
+  margin-right: 20px;
  }
 
  .header-btn:hover {
@@ -321,4 +323,66 @@ margin-bottom: 20px;
 
 .site-footer p {
   color: gray;
+}
+
+
+
+@media screen and (max-width: 768px){
+  .header-container {
+    margin: 100px 10px;
+  }
+  .website-icon,
+  .header-btn {
+    top: 20px;
+  }
+
+  .hero-container {
+    margin: 20px;
+  }
+
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-me-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about-me-text {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .my-work-container {
+    grid-template-columns: 1fr;
+  }
+
+  .work-item img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .book-section {
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .footer-content .foot-icon {
+    margin-top: 10px;
+  }
 }
