@@ -214,16 +214,18 @@ margin-bottom: 20px;
   background-color: palevioletred;
 }
 
-.work-subtitle {
+.work-subtitle h3{
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  font-size: 25px;
 }
 
-.work-subtitle h3 {
-  font-size: 35px;
-  font-weight: bold;
+.work-item h3 {
+  margin-top: 15px;
+  margin-bottom: 12px;
+  font-size: larger;
+  font-weight: 600;
 }
+
 
 .my-work-container {
   display: grid;
