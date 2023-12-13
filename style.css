@@ -92,6 +92,11 @@ body {
   color: white;
   border-radius: 8px;
   padding: 8px;
+  cursor: pointer;
+ }
+
+ .header-btn:hover {
+  background-color: grey;
  }
 
  .hero-container {
@@ -201,6 +206,10 @@ margin-bottom: 20px;
   font-weight: 650;
   border-radius: 7px;
   cursor: pointer;
+}
+
+.about-contact-btn:hover {
+  background-color: palevioletred;
 }
 
 .work-subtitle {
