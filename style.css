@@ -67,3 +67,25 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+
+ .website-icon {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  border-radius: 8px;
+  padding: 3px;
+ }
+
+ .header-btn {
+  position: absolute;
+  text-decoration: none;
+  top: 10px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 8px;
+ }
