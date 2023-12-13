@@ -68,6 +68,10 @@ body {
  * ADD YOUR STYLES HERE
  */
 
+ .header-container {
+  margin: 200px;
+ }
+
  .website-icon {
   position: absolute;
   top: 10px;
@@ -88,4 +92,63 @@ body {
   color: white;
   border-radius: 8px;
   padding: 8px;
+ }
+
+ .hero-container {
+  margin: 40px;
+  justify-content: center;
+  text-align: center;
+ }
+
+ .hero-title {
+  font-size: larger;
+ }
+
+ .hero-p {
+  color:gray;
+ }
+
+ .grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+ }
+
+ .item {
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-weight: 900;
+ }
+
+ .g-one {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-color: plum;
+ }
+
+ .g-two {
+  background-color: pink;
+ }
+
+ .g-three {
+  background-color: palevioletred;
+ }
+
+ .g-four {
+  grid-column: span 2;
+  background-color: paleturquoise;
+ }
+
+ .g-five {
+  grid-column: span 2;
+  background-color: powderblue;
+ }
+
+ .g-six {
+  grid-column: span 2;
+  background-color: peachpuff;
  }
