@@ -101,7 +101,7 @@ body {
  }
 
  .hero-title {
-  font-size: larger;
+  font-size: 100;
  }
 
  .hero-p {
@@ -152,3 +152,53 @@ body {
   grid-column: span 2;
   background-color: peachpuff;
  }
+
+ .about-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+ }
+
+ .about-img {
+  flex: 1;
+  max-width: 50%;
+  height: 500px;
+  width: 700px;
+  overflow: hidden;
+  border-radius: 15px;
+
+ }
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.about-me-text {
+flex: 1;
+max-width: 50%;
+padding: 0 20px;
+}
+
+.about-me-text h2 {
+  margin-bottom: 10px;
+}
+
+.about-me-text p {
+margin-bottom: 20px;
+}
+
+.about-contact-btn {
+  padding: 15px;
+  background-color: pink;
+  color: black;
+  border: none;
+  font-weight: 650;
+  border-radius: 7px;
+  cursor: pointer;
+}
